@@ -1,4 +1,4 @@
-name := "Hello"
+name := "Cleanse-mp3"
 
 version := "1.0"
 
