@@ -1,0 +1,532 @@
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: hello#hello$sources_javadoc_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/basu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/basu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/basu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/basu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/basu/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-io#commons-io;2.4 (resolved by public): /home/basu/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/basu/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-io#commons-io;2.4 (resolved by public): /home/basu/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	checking commons-io#commons-io;2.4 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-io#commons-io;2.4 from public[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [test][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [test][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello$sources_javadoc_2.9.2;1.0->commons-io#commons-io;2.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.4 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello$sources_javadoc_2.9.2;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mloadData of hello#hello$sources_javadoc_2.9.2;1.0 of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/basu/.ivy2/cache/resolved-hello-hello$sources_javadoc_2.9.2-1.0.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.2!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.2!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m		to /home/basu/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6360838017287582981sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar(src) (4855ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		to /home/basu/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp398837694562309581sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar(doc) (6187ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 112ms :: artifacts dl 11053ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 compile produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-compile.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 runtime produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-runtime.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 test produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-test.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 provided produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-provided.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 optional produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-optional.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 compile-internal produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 runtime-internal produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-io#commons-io;2.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 test-internal produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-test-internal.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 plugin produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-plugin.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 sources produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-sources.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 docs produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-docs.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello$sources_javadoc_2.9.2;1.0 pom produced in /home/basu/.ivy2/cache/hello-hello$sources_javadoc_2.9.2-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (112ms resolve - 11053ms download)[0m
